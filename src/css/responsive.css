@@ -1,0 +1,107 @@
+@media (min-width:2000px) {
+    html {
+        font-size: 110%;
+    }
+}
+
+@media (max-width:1024px) {
+    .container {
+        padding: 0 5rem;
+        gap: 6rem;
+    }
+
+    .container .texts .title {
+        font-size: 2.5rem
+    }
+
+    .container .texts .info {
+        font-size: 2rem;
+        width: 38rem;
+        font-weight: 400;
+    }
+
+    .container .div-form {
+        width: 43rem;
+    }
+}
+
+@media (max-width:768px) {
+    .container {
+        padding: 0 4rem;
+    }
+
+    .container .texts .title {
+        font-size: 2rem;
+        margin-bottom: 1rem;
+    }
+
+    .container .texts .info {
+        font-size: 1.7rem;
+        width: 30rem;
+        font-weight: 400;
+    }
+
+    .container .div-form {
+        width: 35rem;
+    }
+
+    .container .div-form form input,
+    .container .div-form form textarea,
+    .container .div-form form input[type="submit"],
+    .container .div-form form .span {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width:690px) {
+    .container {
+        flex-direction: column;
+        padding: 4rem 2rem 2rem;
+        justify-content: space-around;
+    }
+
+    .container .texts .title {
+        margin-bottom: 2rem;
+    }
+
+    .container .texts .info {
+        font-size: 1.5rem;
+        font-weight: 300;
+    }
+}
+
+@media (max-width:400px) {
+    .container .div-form {
+        padding: 1.5rem;
+        width: 90%;
+    }
+
+    .container .div-form form input,
+    .container .div-form form textarea {
+        margin-top: 0.7rem;
+    }
+}
+@media (max-width:360px) {
+    .container .div-form form input,
+    .container .div-form form textarea,
+    .container .div-form form input[type="submit"],
+    .container .div-form form .span {
+        margin-top: 0.5rem;
+        font-size: 1rem;
+    }
+    .container .div-form {
+        padding: 1.5rem;
+
+    }
+    .container .texts .title {
+        font-size: 1.8rem;
+        margin-bottom: 3rem;
+    }
+
+    .container .texts .info {
+        font-size: 1.5rem;
+        width: 25rem;
+        font-weight: 400;
+    }
+
+}

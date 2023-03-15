@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quest Validação de Inputs</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="./src/css/responsive.css">
+</head>
+
+<body>
+    <main class="container">
+        <div class="texts">
+            <h1 class="title">FICOU COM DÚVIDA?<br> NOS MANDE UMA MENSAGEM!</h1>
+            <p class="info">caso tenha ficado com qualquer dúvida basta nos mandar uma mensagem e entraremos em contato
+                em menos de 24h.</p>
+        </div>
+        <div class="div-form">
+            <form method="get" action="#">
+                <!-- <ul class="list-inputs">
+                    <li class="item"> -->
+                <input type="text" name="name" placeholder="Nome Completo *" class="input">
+                <span class="span" id="name">campo obrigatório</span>
+                <!-- </li>
+                    <li class="item"> -->
+                <input type="text" name="email" placeholder="Email *" class="input">
+                <span class="span" id="email">campo obrigatório</span>
+                <!-- </li>
+                    <li class="item"> -->
+                <input type="tel" name="phone" placeholder="Telefone *" pattern="[0-9]{2} [0-9]{5}-[0-9]{4}" class="input">
+                <span class="span" id="phone">campo obrigatório</span>
+                <!-- </li>
+                    <li class="item"> -->
+                <textarea name="mensage" rows="5" placeholder="Mensagem *" class="input"></textarea>
+                <span class="span" id="mensage">campo obrigatório</span>
+                <!-- </li>
+                </ul> -->
+                <p class="campo-obrigatorio">*campos obrigatórios</p>
+                <button type="submit" class="btn-enviar">Enviar</button>
+            </form>
+        </div>
+    </main>
+    <script type="text/javascript" src="./src/js/index.js"></script>
+</body>
+
+</html>
+
+<!-- Eu vi duas formas de resolver o desafio, fiquei na dúvida de qual enviar então estou enviando as duas formas sendo uma delas de forma comentada no meio do código, sei que não é bom mas é só para este caso em específico -->

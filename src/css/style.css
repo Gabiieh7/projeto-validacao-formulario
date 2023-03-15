@@ -1,0 +1,89 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 100vh;
+    padding: 0 10rem;
+    background-image: url(../images/bg-repeat.jpg);
+    background-repeat: repeat-x;
+    background-size: contain;
+}
+
+.container .texts .title {
+    font-weight: 900;
+    font-size: 3.7rem;
+    color: #fff;
+    margin-bottom: 2.2rem;
+}
+
+.container .texts .info {
+    font-weight: 300;
+    font-size: 2.8rem;
+    color: #fff;
+    width: 54rem;
+}
+
+.container .div-form {
+    width: 50rem;
+    background-color: #fff;
+    padding: 1.5rem 3rem 3rem;
+}
+
+.container .div-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.container .div-form form input,
+.container .div-form form textarea {
+    font-size: 2rem;
+    font-weight: 700;
+    padding: 12px;
+    border-radius: 7px;
+    margin-top: 1.5rem;
+    border: 2px solid #000;
+    resize: none;
+    /* width: 100%; */
+}
+.container .div-form form input::placeholder,
+.container .div-form form textarea::placeholder {
+    color: #A8A8A8;
+}
+
+.container .div-form form .vazio {
+    border: #F52E2E 2px solid;
+}
+
+.container .div-form form .valido {
+    border: #3CCC87 2px solid;
+}
+
+.container .div-form form .campo-obrigatorio {
+    font-size: 2rem;
+    font-weight: 400;
+    margin: 1rem 0;
+}
+
+.container .div-form form .span {
+    color: #F52E2E;
+    opacity: 0;
+}
+
+.container .div-form form .span.visivel {
+    opacity: 1;
+}
+
+.container .div-form form .btn-enviar {
+    font-size: 2.2rem;
+    padding: 1.5rem 0;
+    color: #fff;
+    background-color: #3CCC87;
+    border: none;
+    border-radius: 7px;
+    margin-top: 1.5rem;
+    transition: 0.4s ease-in-out;
+}
+.container .div-form form .btn-enviar:hover{
+    transform: scale(1.05);
+    border: 1px solid rgb(2, 71, 2);
+}
